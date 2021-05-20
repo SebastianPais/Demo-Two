@@ -1,0 +1,45 @@
+body {
+  background: tomato;
+}
+#contenedor {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    clear: both;
+    display: table;
+  }
+  .cuadrado {
+    margin: 10px;
+    width: 100px; 
+    height: 100px; 
+    background: #1aa73d;
+    float: left;
+    padding: 5px;
+  }
+  
+  .circulo {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    background: #116ec5;
+    float: left;
+    padding: 5px;
+  }
+  
+  .triangulo {
+    margin: 50%;
+    width: 50px; 
+    height: 0px; 
+    border-left: 160px solid #f0ad4e;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent; 
+    float: left;
+    padding: 0px;
+    position: absolute;
+  }
+  
