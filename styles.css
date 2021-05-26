@@ -9,8 +9,33 @@ body {
     clear: both;
     display: table;
   }
+  #container2 {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    clear: both;
+    display: table;
+  }
+  #container3 {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    clear: both;
+    display: table;
+  }
+  #container4 {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    clear: both;
+    display: table;
+  }
   .cuadrado {
     margin: 10px;
+    margin-left: 50px;
     width: 100px; 
     height: 100px; 
     background: #1aa73d;
@@ -30,16 +55,53 @@ body {
     float: left;
     padding: 5px;
   }
-  
   .triangulo {
-    margin: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #f0ad4e;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid transparent; 
+    float: left;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .cuadrado2 {
+    margin: 10px;
+    margin-left: 50px;
+    width: 100px; 
+    height: 100px; 
+    background: #1aa73d;
+    float: left;
+    padding: 5px;
+  }
+  
+  .circulo2 {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+    background: #116ec5;
+    float: left;
+    padding: 5px;
+  }
+  .triangulo2 {  
+    margin: 10px;
     width: 50px; 
     height: 0px; 
-    border-left: 160px solid #f0ad4e;
-    border-top: 80px solid transparent;
-    border-bottom: 80px solid transparent; 
+    border-left: 110px solid #f0ad4e;
+    border-top: 55px solid transparent;
+    border-bottom: 55px solid transparent; 
     float: left;
     padding: 0px;
-    position: absolute;
   }
+  margin: 50%;
+
   
